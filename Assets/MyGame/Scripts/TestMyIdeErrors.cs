@@ -12,7 +12,8 @@ public class TestMyIdeErrors : MonoBehaviour
     {
 
     }
-    int a = 1
+
+    int a = 1;
     int b = 2;
     flaot d = 5;
 
@@ -22,7 +23,7 @@ public class TestMyIdeErrors : MonoBehaviour
     void Start()
     {
         int c = a + b;
-        Debug.Log("a + b = " 3);
+        Debug.Log("a + b = 3");
         Debug.Log(Tag + "- Done ;)");
     }
 
@@ -31,3 +32,4 @@ public class TestMyIdeErrors : MonoBehaviour
     {
 
     }
+}
