@@ -13,17 +13,10 @@ public class TestMyIdeErrors : MonoBehaviour
 
     TextMeshProUGUI TextPro;
 
-    // Start is called before the first frame update
     void Start()
     {
         int c = a + b;
         Debug.Log("a + b = 3");
         Debug.Log(Tag + "- Done ;)");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
